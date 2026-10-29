@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "announcements": [
+    {
+      "id": "test-yusr-20261029",
+      "enabled": true,
+      "type": "general",
+      "priority": 10,
+      "startsAt": "2026-10-29T00:00:00Z",
+      "endsAt": "2026-10-31T23:59:59Z",
+      "platforms": ["ios"],
+      "minAppVersion": "1.2.0",
+      "maxAppVersion": "1.2.0",
+      "repeat": { "mode": "once" },
+      "dismissible": true,
+      "action": { "type": "none" },
+      "content": {
+        "en": {
+          "title": "Hello from Yusr!",
+          "body": "This is our first live announcement test. If you can see this, remote announcements are working!",
+          "primary": "Got it",
+          "secondary": "Not now"
+        },
+        "fr": {
+          "title": "Bonjour de Yusr !",
+          "body": "Ceci est notre premier test d'annonce. Si vous voyez ce message, tout fonctionne !",
+          "primary": "Compris",
+          "secondary": "Plus tard"
+        },
+        "ar": {
+          "title": "مرحبًا من يُسْر!",
+          "body": "هذه أول رسالة تجريبية لنا. إذا ظهرت لك، فهذا يعني أن الإعلانات تعمل بنجاح!",
+          "primary": "فهمت",
+          "secondary": "لاحقًا"
+        }
+      }
+    }
+  ]
+}

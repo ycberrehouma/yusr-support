@@ -8,30 +8,36 @@
       "priority": 10,
       "startsAt": "2026-10-29T00:00:00Z",
       "endsAt": "2026-10-31T23:59:59Z",
-      "platforms": ["ios"],
+      "platforms": [
+        "ios"
+      ],
       "minAppVersion": "1.2.0",
       "maxAppVersion": "1.2.0",
-      "repeat": { "mode": "once" },
+      "repeat": {
+        "mode": "once"
+      },
       "dismissible": true,
-      "action": { "type": "none" },
+      "action": {
+        "type": "none"
+      },
       "content": {
         "en": {
-          "title": "Hello from Yusr!",
-          "body": "This is our first live announcement test. If you can see this, remote announcements are working!",
-          "primary": "Got it",
-          "secondary": "Not now"
+          "title": "A little thank you 💚",
+          "body": "I just wanted to personally thank you for using Yusr. Your support means more than you know and helps tremendously. May Allah reward you for being part of this journey. جزاك الله خيرًا",
+          "primary": "Thank you",
+          "secondary": "Close"
         },
         "fr": {
-          "title": "Bonjour de Yusr !",
-          "body": "Ceci est notre premier test d'annonce. Si vous voyez ce message, tout fonctionne !",
-          "primary": "Compris",
-          "secondary": "Plus tard"
+          "title": "Un petit merci 💚",
+          "body": "Je voulais simplement vous remercier personnellement d'utiliser Yusr. Votre soutien compte énormément pour moi. Qu'Allah vous récompense. جزاك الله خيرًا",
+          "primary": "Merci",
+          "secondary": "Fermer"
         },
         "ar": {
-          "title": "مرحبًا من يُسْر!",
-          "body": "هذه أول رسالة تجريبية لنا. إذا ظهرت لك، فهذا يعني أن الإعلانات تعمل بنجاح!",
-          "primary": "فهمت",
-          "secondary": "لاحقًا"
+          "title": "شكرًا من القلب 💚",
+          "body": "أردت فقط أن أشكرك شخصيًا على استخدام تطبيق يُسر. دعمك يعني لي الكثير ويساعدني بشكل كبير. أسأل الله أن يجزيك خير الجزاء. جزاك الله خيرًا",
+          "primary": "شكرًا",
+          "secondary": "إغلاق"
         }
       }
     }

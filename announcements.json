@@ -2,42 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "test-yusr-20261029",
+      "id": "yusr-growing-2026-11",
       "enabled": true,
       "type": "general",
-      "priority": 10,
-      "startsAt": "2026-10-29T00:00:00Z",
-      "endsAt": "2026-10-31T23:59:59Z",
-      "platforms": [
-        "ios"
-      ],
+      "priority": 20,
+      "startsAt": "2026-11-13T00:00:00Z",
+      "endsAt": "2026-12-31T23:59:59Z",
+      "platforms": ["ios", "android"],
       "minAppVersion": "1.2.0",
-      "maxAppVersion": "1.2.0",
-      "repeat": {
-        "mode": "once"
-      },
+      "repeat": { "mode": "once" },
       "dismissible": true,
-      "action": {
-        "type": "none"
-      },
+      "action": { "type": "openUrl", "url": "https://ycberrehouma.github.io/yusr-support/share" },
       "content": {
         "en": {
-          "title": "A little thank you 💚",
-          "body": "I just wanted to personally thank you for using Yusr. Your support means more than you know and helps tremendously. May Allah reward you for being part of this journey. جزاك الله خيرًا",
-          "primary": "Thank you",
-          "secondary": "Close"
-        },
-        "fr": {
-          "title": "Un petit merci 💚",
-          "body": "Je voulais simplement vous remercier personnellement d'utiliser Yusr. Votre soutien compte énormément pour moi. Qu'Allah vous récompense. جزاك الله خيرًا",
-          "primary": "Merci",
-          "secondary": "Fermer"
-        },
-        "ar": {
-          "title": "شكرًا من القلب 💚",
-          "body": "أردت فقط أن أشكرك شخصيًا على استخدام تطبيق يُسر. دعمك يعني لي الكثير ويساعدني بشكل كبير. أسأل الله أن يجزيك خير الجزاء. جزاك الله خيرًا",
-          "primary": "شكرًا",
-          "secondary": "إغلاق"
+          "title": "Yusr is growing! 🌱",
+          "body": "More features and improvements are coming, with a big surprise before the end of the year!\n\nHelp us spread the Quran by sharing Yusr with your friends and family. Every share matters.\n\nJazakum Allahu Khairan 🤍",
+          "primary": "Share Yusr 🤍",
+          "secondary": "Maybe Later"
         }
       }
     }
